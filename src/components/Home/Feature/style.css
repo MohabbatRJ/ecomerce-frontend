@@ -1,0 +1,27 @@
+.card-banner {
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    top: 50%;
+
+}
+
+.bg-img {
+
+    background-image: url('https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/banners/banner-item2.webp');
+}
+
+.card-body a:hover {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+}
+
+.feature .bg-success {
+    /* width: 0 !important; */
+    min-width: 550px !important;
+}

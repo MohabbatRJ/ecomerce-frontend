@@ -1,0 +1,10 @@
+:root {
+  --bg-primary: #3b71ca;
+}
+
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+.card .prodImg {
+    transition: transform 0.3s ease;
+
+}
+
+.card .prodImg:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

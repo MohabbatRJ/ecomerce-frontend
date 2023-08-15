@@ -1,0 +1,11 @@
+.dealLinks {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.dealLinks:first-child {
+
+    background-color: #e3ebf7 !important;
+    color: #285192;
+}

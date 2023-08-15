@@ -1,0 +1,33 @@
+.form-outline {
+    position: relative;
+    width: 100%;
+}
+
+.form-outline .form-control {
+    min-height: auto;
+    padding: 0.32rem 0.75rem;
+    border: 0;
+    background: transparent;
+    transition: all .2s linear;
+}
+
+.form-control, .form-control:focus {
+    transition: all .1s linear;
+    box-shadow: none;
+}
+
+.form-outline .form-control~.form-label {
+    position: absolute;
+    top: 0;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    left: 0.75rem;
+    padding-top: 0.37rem;
+    pointer-events: none;
+    transform-origin: 0 0;
+    transition: all .2s ease-out;
+    color: rgba(0, 0, 0, .6);
+    margin-bottom: 0;
+}
